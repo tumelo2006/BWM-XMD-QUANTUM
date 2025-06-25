@@ -11,7 +11,7 @@
   "env": {
     "PREFIX": {
       "description": "Choose your prefix for your bot",
-      "value": ".",
+      "value": ",",
       "required": true
     },
     "AUTO_REJECT_CALL": {
@@ -61,7 +61,7 @@
     },
     "PUBLIC_MODE": {
       "description": "Type yes for public mode or no for private mode",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "HEROKU_API_KEY": {
@@ -91,7 +91,7 @@
     },
    "AUTO_REACT_STATUS": {
       "description": "Enter yes for your bot to auto like status",
-      "value": "yes",
+      "value": "no",
       "required": false 
     },
     "OWNER_NAME": {
@@ -106,12 +106,12 @@
     },    
     "STARTING_BOT_MESSAGE": {
       "description": "Enable starting message (yes/no)",
-      "value": "yes",
+      "value": "no",
       "required": true
     },
     "PRESENCE": {
       "description": "Presence mode: 1=online, 2=typing, 3=recording",
-      "value": "",
+      "value": "2",
       "required": false
     },
     "ANTIDELETE_SENT_INBOX": {
